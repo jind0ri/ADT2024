@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ADT - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="main.html">
+          <img src="logo.png" alt="Company Logo" class="logo-image">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Dropdown Menu for About Us -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="staff.html">STAFF</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="visionmission.html">VISION MISSION</a></li>
+            </ul>
+          </li>
+          <li><a href="clients.html">CLIENTS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="jumbotron text-center">
+    <h1><strong>ADT</strong></h1>
+    <p>Market Research Services</p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+        <form id="searchForm" class="input-group">
+          <input type="text" class="form-control" placeholder="What are you looking for?" required id="searchQuery">
+          <span class="input-group-btn">
+            <button type="submit" class="btn btn-danger">Search</button>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="GROUPPIC.jpg" alt="Group Picture" usemap="#image-map" style="width:100%;">
+        <map name="image-map">
+          <area alt="Ofelia" title="Ofelia Tamondong-Maglalang" href="staff.html#ofelia" coords="437,222,543,334"
+            shape="rect">
+          <area alt="Mary" title="Mary Margarett Frilles" href="staff.html#mary" coords="94,182,201,328" shape="rect">
+          <area alt="Arjay" title="Arjay Laguelles" href="staff.html#arjay" coords="285,107,356,216" shape="rect">
+          <area alt="Aiza" title="Aiza Gile" href="staff.html#aiza" coords="382,149,431,235" shape="rect">
+          <area alt="Hazel" title="Hazel Malana" href="staff.html#hazel" coords="1203,216,1302,334" shape="rect">
+          <area alt="Jerme" title="Jerme Lucillo" href="staff.html#jerme" coords="961,186,1053,307" shape="rect">
+          <area alt="Marie" title="Marie Leal" href="staff.html#marie" coords="667,156,723,228" shape="rect">
+          <area alt="Zha" title="Zha Padiernos" href="staff.html#zha" coords="851,186,919,268" shape="rect">
+          <area alt="Aileen" title="Aileen Orgiba" href="staff.html#aileen" coords="1167,91,1232,178" shape="rect">
+          <area alt="Jess" title="Jess Basa" href="staff.html#jess" coords="511,140,583,213" shape="rect">
+          <area alt="Jen" title="Jen Feliciano" href="staff.html#jen" coords="754,132,824,218" shape="rect">
+        </map>
+      </div>
+      <div class="item">
+        <img src="OFELIATALK.jpg" alt="Speaker" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="ADT2023.jpg" alt="ADT 2023" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="GROUPPIC2.jpg" alt="Group Picture 2" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span the="sr-only"></span>
+    </a>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 style = "color: #00E3C4; font-size: 60px;">ADT</h1>
+        <h2 style = "color: #3e4e4c;">Market Research Services</h2>
+        <h4 style="text-align: center; margin-left: 100px; margin-right: 100px;">With qualified and credible personnel, <b>ADT MRS</b> assures all services rendered comply with high quality standards and maintains strict confidentiality on all gathered information.
+        <span>Our field services are guaranteed to be highly compliant to <b>MORES</b> standards and may be customized based on the client’s requirements.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="join-container-fluid bg-green">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="hiring2.png" alt="Hiring" class="hiring-image slideanim">
+      </div>
+      <div class="col-sm-8">
+        <h2 style = "color: rgb(199, 48, 48); font-size: 50px;"><strong>We're Hiring!</strong></h2>
+        <h4 style = "color: #ffff; font-size: 40px;">Join Our Team at ADT MRS</h4>
+        <p>Are you ready to advance your career in a dynamic, supportive environment? At ADT MRS, we're looking for
+          passionate, skilled professionals to join our team. With a commitment to excellence and innovation,
+          we offer unique opportunities for personal and professional growth in a culture that values each member's
+          contribution. Join us in our journey of excellence and innovation.</p>
+        <br>
+        <a href="hiring.html" class="btn btn-default btn-lg" target="_blank">Apply Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>ADT provides trained individuals to gather data <br><span>or information directly from people in various
+            locations.</span></h4>
+      </div>
+      <div class="item">
+        <h4>ADT helps organize and summarize the data collected from surveys,<br><span>interviews, or other research
+            methods.</span></h4>
+      </div>
+      <div class="item">
+        <h4>ADT also offers other requirements related to the conduct of market research such as Research Design,
+          Sampling,<br><span>Reporting and Presentation, Ethical Considerations, Quality Control, and Budget and
+            Resources.</span></h4>
+      </div>
+    </div>
+
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span>Road 1 Bagong Pag-asa, Quezon City</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +63 925 816 3254</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> ofeliamaglalang@adtmrs2.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sitemap-->
+<div class="jumbotron-sitemap">
+  <div class="sitemap-container text-center">
+    <ul class="list-unstyled">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="visionmission.html">Vision &amp; Mission</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="hiring.html">Hiring</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>© 2024 ADT Market Research Services. All rights reserved.<br>
+      Website created by Atienza, Cruz, Dulay, Sagadal - AM1</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Join Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    function showFileInput() {
+        document.getElementById("cvForm").style.display = "block";
+        document.getElementById("submitCvButton").style.display = "none";
+    }
+    </script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="main.html">
+              <img src="logo.png" alt="Company Logo" class="logo-image">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <!-- Dropdown Menu for About Us -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="staff.html">STAFF</a></li>
+                  <li><a href="services.html">SERVICES</a></li>
+                  <li><a href="visionmission.html">VISION MISSION</a></li>
+                  <li><a href = "sitemap.html">SITE MAP</a></li>
+                </ul>
+              </li>
+              <li><a href="clients.html">CLIENTS</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class = "img-container" style = "background-color: rgb(0, 227, 196, 0.5);">
+        <div class = "hiring-img">
+            <img src = "hiring.png" alt = "Hiring Element">
+        </div>
+        <div class="hiring-text">
+            <h1>Join Our Team as a Field Interviewer</h1>
+            <p>ADT MARKET RESEARCH SERVICES is expanding its team, and we are looking for passionate individuals 
+                to fill the role of <b>FIELD INTERVIEWER</b></p>
+            <p>Submit your CV or Contact Us</p>
+            <form id="cvForm" style="display: none;" action="submit_cv.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="cv_file" id="cv_file" required>
+                <button type="submit" class="button button1">Submit</button>
+            </form>
+            <button onclick="showFileInput()" class="button button1" id="submitCvButton">Submit CV</button>
+            <a href="contact.html" class="button button2">Contact Us</a>
+        </div>
+    </div>
+
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class = "quali-text">
+                  <h1>QUALIFICATIONS</h1>
+                  <ul>
+                    <li>With or without experience in conducting interviews/survey.</li>
+                    <li>At least a college-level education.</li>
+                    <li>Willing to work on a flexible schedule.</li>
+                    <li>Open to travel for work.</li>
+                    <li>Eager to learn and undergo training.</li>
+                    <li>Hardworking with the ability to multi-task.</li>
+                    <li>Ready to take on any given survey task.</li>
+                    <li>The ability to stand or walk for extended periods is a must.</li>
+                </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src = "hiring3.png" alt = "Hiring Element" class = "hiring-img">
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div style = "background-color: rgb(0, 227, 196, 0.5);">
+        <div class="col-md-6">
+            <img src = "hiring4.png" alt = "Hiring Element" class = "hiring-img">
+          </div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div class = "resp-text">
+                  <h1>RESPONSIBILITIES</h1>
+                  <ul>
+                    <li>Conduct various types of interviews using research methodologies like house-to-house/door-to-door, telephone interviews, intercepts, central location tests, etc.</li>
+                    <li>Maintain strict confidentiality with all survey documents, information, procedures, and policies during data collection, storage, and sharing.</li>
+                    <li>Perform additional office duties as required.</li>
+                    <li>Manage interactions with people from diverse backgrounds fairly and professionally, ensuring effective communication across races, nationalities, cultures, disabilities, ages, and genders.</li>
+                    <li>Work on a project basis, adapting to different tasks as needed.</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <div style = "padding: 20px; text-align: center;">
+        <h1>Join us</h1>
+        <p>Office Location: Unit 206 JBD PLAZA, 65 Mindanao Avenue, Bagong Pag-asa, Quezon City</p>
+        <p>Be part of a growing company and start your journey with us! Reach out to us for more information on how to apply.</p>
+    </div>
+
+    <!--Sitemap-->
+<div class="jumbotron-sitemap">
+  <div class="sitemap-container text-center">
+    <ul class="list-unstyled">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="visionmission.html">Vision &amp; Mission</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="hiring.html">Hiring</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>© 2024 ADT Market Research Services. All rights reserved.<br>
+            Website created by Atienza, Cruz, Dulay, Sagadal - AM1</a></p>
+      </footer>
+</body>
+
+</html>

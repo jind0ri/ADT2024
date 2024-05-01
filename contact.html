@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Link to Bootstrap CSS via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class = "contact-bg">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="main.html">
+                        <img src="logo.png" alt="Company Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <b
+                                    class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="staff.html">STAFF</a></li>
+                                <li><a href="services.html">SERVICES</a></li>
+                                <li><a href="visionmission.html">VISION MISSION</a></li>
+                                <li><a href = "sitemap.html">SITE MAP</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="clients.html">CLIENTS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <div class="container mt-4 contact-grid">
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="mailto:ymedulay@mymail.mapua.edu.ph" method="post" enctype="text/plain">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="website">Website:</label>
+                    <input type="text" class="form-control" id="website" placeholder="Enter website URL">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5"
+                        placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"
+                    style="background-color: #2AC8B0; border: none;">Submit</button>
+            </form>
+        </div>
+
+        <div class="contact-information">
+            <h1>Contact Information</h1>
+            <p><strong>Ofelia Tamondong-Maglalang</strong></p>
+            <p><strong>Landline:</strong> (02) 921-0008</p>
+            <p><strong>Mobile:</strong> 0925-816-3254</p>
+            <p><strong>Email:</strong> ofeliamaglalang@adtmrs2.com</p>
+            <p><strong>Website:</strong> <a href="http://www.adtmrs2.com/" target="_blank">www.adtmrs2.com</a>
+            </p>
+            <p><strong>Office Address:</strong> Unit 102-103 One Lourdes Place #126 Road 1 Bagong Pag-asa,
+                Quezon City 1105</p>
+
+            <br>
+            <p><strong>Contact us via Facebook:</strong></p>
+            <p><a href="https://www.facebook.com/ADTMarketResearchServices" target="_blank"><img
+                        src="fb.png" alt="Facebook Logo" class="social-logo"
+                        style="width: 50px; height: 50px; "></a></p>
+
+        </div>
+    </div>
+
+    <div class="map-wrapper">
+        <div class="map-text">
+            <h1>Find Us Here</h1>
+        </div>
+        <div id="goomap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.89110744603!2d121.03278497510738!3d14.662120585831557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b71e4b82bff9%3A0x791dfd84af06807f!2sOne%20Lourdes%20Place!5e0!3m2!1sen!2sph!4v1713789103126!5m2!1sen!2sph" width="900" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Link to jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Sitemap-->
+<div class="jumbotron-sitemap">
+  <div class="sitemap-container text-center">
+    <ul class="list-unstyled">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="visionmission.html">Vision &amp; Mission</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="hiring.html">Hiring</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>© 2024 ADT Market Research Services. All rights reserved.<br>
+            Website created by Atienza, Cruz, Dulay, Sagadal - AM1</a></p>
+      </footer>
+</body>
+
+</html>

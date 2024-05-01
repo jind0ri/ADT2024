@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ADT - About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="main.html">
+          <img src="logo.png" alt="Company Logo" class="logo-image">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="staff.html#ofelia">STAFF</a></li>
+              <li><a href="services.html">SERVICES</a></li>
+              <li><a href="visionmission.html">VISION MISSION</a></li>
+            </ul>
+          </li>
+          <li><a href="clients.html">CLIENTS</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1><strong>ADT</strong></h1> 
+    <p>Market Research Services</p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+        <form id="searchForm" class="input-group">
+          <input type="text" class="form-control" placeholder="What are you looking for?" required id="searchQuery">
+          <span class="input-group-btn">
+            <button type="submit" class="btn btn-danger">Search</button>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="GROUPPIC.jpg" alt="Group Picture" usemap="#image-map" style="width:100%;">
+        <map name="image-map">
+          <area alt="Ofelia" title="Ofelia Tamondong-Maglalang" href="staff.html#ofelia" coords="437,222,543,334" shape="rect"> 
+		  <area alt="Mary" title="Mary Margarett Frilles" href="staff.html#mary" coords="94,182,201,328" shape="rect"> 
+		  <area alt="Arjay" title="Arjay Laguelles" href="staff.html#arjay" coords="285,107,356,216" shape="rect"> 
+		  <area alt="Aiza" title="Aiza Gile" href="staff.html#aiza" coords="382,149,431,235" shape="rect"> 
+		  <area alt="Hazel" title="Hazel Malana" href="staff.html#hazel" coords="1203,216,1302,334" shape="rect"> 
+		  <area alt="Jerme" title="Jerme Lucillo" href="staff.html#jerme" coords="961,186,1053,307" shape="rect"> 
+		  <area alt="Marie" title="Marie Leal" href="staff.html#marie" coords="667,156,723,228" shape="rect"> 
+		  <area alt="Zha" title="Zha Padiernos" href="staff.html#zha" coords="851,186,919,268" shape="rect"> 
+		  <area alt="Aileen" title="Aileen Orgiba" href="staff.html#aileen" coords="1167,91,1232,178" shape="rect">
+		  <area alt="Jess" title="Jess Basa" href="staff.html#jess" coords="511,140,583,213" shape="rect"> 
+		  <area alt="Jen" title="Jen Feliciano" href="staff.html#jen" coords="754,132,824,218" shape="rect">
+        </map>
+      </div>
+      <div class="item">
+        <img src="OFELIATALK.jpg" alt="Speaker" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="ADT2023.jpg" alt="ADT 2023" style="width:100%;">
+      </div>
+      <div class="item">
+        <img src="GROUPPIC2.jpg" alt="Group Picture 2" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span the="sr-only"></span>
+    </a>
+  </div>
+  <div id="about" class="container-fluid about-section">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>About Us</h2>
+      <h4>In February 2005, Aurora Danga Tamondong established ADT Market Research Services (ADT MRS), as an independent proprietorship. It meets all the needs for doing market research, including providing tabulation services and field staff. With over thirty years of expertise, founder Aurora Danga Tamondong had a broad foundation in the field of market research. Her daughter, Ofelia Tamondong-Maglalang, is currently in charge of ADT MRS.</h4>
+      <h4>10 permanent workers now work for the firm, located at Unit 102-103 One Lourdes Place #126 Road 1, Bagong Pag-asa, Quezon City, 1105. 80 contract/project-based field interviewers and four field managers/supervisors are available for deployment anywhere in Luzon. We also have a team of field interviewers operating in the Philippines nationwide, including Cebu and Davao.</h4>
+      <h4>ADT MRS guarantees that all services are provided in accordance with high-quality standards and upholds inviolable confidentiality about all information obtained from its reputable and skilled staff. Our field services may be tailored to meet the customer's specific needs and are assured to be highly compliant with MORES standards.</h4>
+      </div>
+    </div>
+  </div>
+
+  <!--Sitemap-->
+<div class="jumbotron-sitemap">
+  <div class="sitemap-container text-center">
+    <ul class="list-unstyled">
+      <li><a href="main.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="visionmission.html">Vision &amp; Mission</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="hiring.html">Hiring</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>© 2024 ADT Market Research Services. All rights reserved.</p>
+  </footer>
+  <script>
+    $(document).ready(function() {
+      $('img[usemap]').rwdImageMaps();
+    });
+  </script>
+</body>
+</html>
